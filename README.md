@@ -1,12 +1,38 @@
-# React + Vite
+# 🌐 Portfolio Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **personal portfolio website** built using **React, Vite, and Bootstrap 5**.  
+It showcases my skills, projects, and includes a working contact form powered by **EmailJS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Live Demo
+[https://pratikroy-portfolio.netlify.app/](https://pratikroy-portfolio.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Built With
+- **React + Vite** – Fast and modern frontend setup  
+- **Bootstrap 5** – For responsive design  
+- **EmailJS** – For contact form functionality  
+- **CSS3** – Custom styling and gradients  
+
+---
+
+### 💻 Features
+- Responsive and mobile-friendly design  
+- Smooth scroll navigation  
+- Contact form with email functionality  
+- Modular and reusable React components  
+- Deployed on **Netlify**
+
+---
+
+
+### 👨‍💻 Author
+**Pratik Roy**  
+Frontend Developer (Intern / Trainee)  
+📧 [roypratik1991@gmail.com](mailto:roypratik1991@gmail.com)  
+🌍 [Portfolio Website]([https://your-portfolio.netlify.app](https://pratikroy-portfolio.netlify.app/))
+
+---
+
