@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'outfit';
+  background-image: url("/public/assets/background.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  background-color: #121414;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
