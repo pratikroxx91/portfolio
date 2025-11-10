@@ -3,7 +3,7 @@ import profile_img from '../../assets/profile_img.jpg'
 import html_5 from '../../assets/html_5.png'
 import css from '../../assets/css.png'
 import js from '../../assets/js.png'
-import bootstrap from '../../assets/bootstrap.png'
+import tailwind from '../../assets/tailwind.png'
 import react from '../../assets/react.png'
 import './About.css'
 import { Container, Row, Col } from 'react-bootstrap';
@@ -33,7 +33,7 @@ const About = () => {
                                     <Col><img className='logos-img' src={html_5} /></Col>
                                     <Col><img className='logos-img' src={css} /></Col>
                                     <Col><img className='logos-img' src={js} /></Col>
-                                    <Col><img className='logos-img' src={bootstrap} /></Col>
+                                    <Col><img className='logos-img' src={tailwind} /></Col>
                                     <Col><img className='logos-img' src={react} /></Col>
                                 </Row>
                             </Container>
