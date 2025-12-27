@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import saas from '../../assets/saas_website.jpg'
 import weatherApp from '../../assets/weatherApp.jpg'
 import portfolioshot from '../../assets/portfolioshot.jpg'
 
@@ -13,6 +14,29 @@ const Projects = () => {
                     <h1 className='text-center mb-5'>Projects</h1>
 
                     <Container>
+                        <Row className='align-items-center my-5 flex-md-row-reverse'>
+                            <Col md={6} sm={12} className='mb-3 p-3 text-center'>
+                                <img src={saas} alt='Portfolio Website' className='project-img' />
+                            </Col>
+                            <Col md={6} sm={12} className='mb-3 p-3'>
+                                <h3>SaaS Landing Page (React)</h3>
+                                <p className='fs-5'>
+                                    A responsive SaaS landing page built using React + Vite and Tailwind CSS. It highlights modern design patterns, smooth UI interactions, responsiveness, and well-structured components, deployed as a live portfolio project.
+                                </p>
+                                <div className='project-buttons'>
+                                    <a href='https://uifrysaas.netlify.app/' target='_blank' rel='noreferrer'>
+                                        <Button variant='outline-success' size='lg' className='me-3'>
+                                            Live Demo
+                                        </Button>
+                                    </a>
+                                    <a href='https://github.com/pratikroxx91/uifry-SaaS-landing-page' target='_blank' rel='noreferrer'>
+                                        <Button variant='outline-light' size='lg'>
+                                            GitHub
+                                        </Button>
+                                    </a>
+                                </div>
+                            </Col>
+                        </Row>
                         <Row className='align-items-center my-5'>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
                                 <img src={weatherApp} alt='Weather App' className='project-img' />
