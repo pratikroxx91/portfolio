@@ -15,7 +15,7 @@ const Hero = () => {
                             <h1>Hi! I'm <span className='cName'>Pratik Roy</span>, a 34 year-old aspiring frontend developer based in Kolkata, India</h1>
                         </div>
                         <div className="hero-action text-center">
-                            <a href="https://drive.google.com/file/d/1viIUhvEbf2Fe6o7o8O790INaqGmkFkRV/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button type="button" className="btn px-3 py-2">View My Résumé</button></a>
+                            <a href="https://drive.google.com/file/d/1_UxyiBnnlcCVwb7TAnEYf64-VijTg5np/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button type="button" className="btn px-3 py-2">View My Résumé</button></a>
                         </div>
                     </div>
                 </div>
