@@ -85,9 +85,9 @@ const Projects = () => {
                     </Container>
                     <div className="text-center mt-5">
                         <p className="fs-5">
-                            You can also check out my experimental mini-project{" "}
+                            You can also check out another one of my mini-project{" "}
                             <a
-                                href="https://github.com/pratikroxx91/landscaping-services-webpage/tree/main/Landscaping%20Project%20with%20Bootstrap%205"
+                                href="https://github.com/pratikroxx91/Salty-Travel-Website-landing-page"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-success fw-semibold"
