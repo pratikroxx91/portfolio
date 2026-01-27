@@ -3,7 +3,7 @@ import './Projects.css'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import saas from '../../assets/saas_website.jpg'
 import weatherApp from '../../assets/weatherApp.jpg'
-import portfolioshot from '../../assets/portfolioshot.jpg'
+import dashboardshot from '../../assets/dashboardshot.jpg'
 
 
 const Projects = () => {
@@ -16,20 +16,20 @@ const Projects = () => {
                     <Container>
                         <Row className='align-items-center my-5 flex-md-row-reverse'>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
-                                <img src={saas} alt='Portfolio Website' className='project-img' />
+                                <img src={dashboardshot} alt='Portfolio Website' className='project-img' />
                             </Col>
                             <Col md={6} sm={12} className='mb-3 p-3'>
-                                <h3>SaaS Landing Page (React)</h3>
+                                <h3>Dashboard UI (React)</h3>
                                 <p className='fs-5'>
-                                    A responsive SaaS landing page built using React + Vite and Tailwind CSS. It highlights modern design patterns, smooth UI interactions, responsiveness, and well-structured components, deployed as a live portfolio project.
+                                    Responsive analytics dashboard built with React and Vite, styled using Tailwind CSS, featuring reusable components and interactive charts powered by Recharts to visualize key metrics and improve UI-driven decision making.
                                 </p>
                                 <div className='project-buttons'>
-                                    <a href='https://uifrysaas.netlify.app/' target='_blank' rel='noreferrer'>
+                                    <a href='https://circlesoft-dashboard.netlify.app/' target='_blank' rel='noreferrer'>
                                         <Button variant='outline-success' size='lg' className='me-3'>
                                             Live Demo
                                         </Button>
                                     </a>
-                                    <a href='https://github.com/pratikroxx91/uifry-SaaS-landing-page' target='_blank' rel='noreferrer'>
+                                    <a href='https://github.com/pratikroxx91/CircleSoft-Dashboard-UI' target='_blank' rel='noreferrer'>
                                         <Button variant='outline-light' size='lg'>
                                             GitHub
                                         </Button>
@@ -37,6 +37,7 @@ const Projects = () => {
                                 </div>
                             </Col>
                         </Row>
+
                         <Row className='align-items-center my-5'>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
                                 <img src={weatherApp} alt='Weather App' className='project-img' />
@@ -62,19 +63,22 @@ const Projects = () => {
                                 </div>
                             </Col>
                         </Row>
-
                         <Row className='align-items-center my-5 flex-md-row-reverse'>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
-                                <img src={portfolioshot} alt='Portfolio Website' className='project-img' />
+                                <img src={saas} alt='Portfolio Website' className='project-img' />
                             </Col>
                             <Col md={6} sm={12} className='mb-3 p-3'>
-                                <h3>Portfolio Website (React)</h3>
+                                <h3>SaaS Landing Page (React)</h3>
                                 <p className='fs-5'>
-                                    My personal portfolio website built with React and Bootstrap, featuring smooth
-                                    scrolling, custom styling, and a working contact form using EmailJS integration.
+                                    A responsive SaaS landing page built using React + Vite and Tailwind CSS. It highlights modern design patterns, smooth UI interactions, responsiveness, and well-structured components, deployed as a live portfolio project.
                                 </p>
                                 <div className='project-buttons'>
-                                    <a href='https://github.com/pratikroxx91/portfolio' target='_blank' rel='noreferrer'>
+                                    <a href='https://uifrysaas.netlify.app/' target='_blank' rel='noreferrer'>
+                                        <Button variant='outline-success' size='lg' className='me-3'>
+                                            Live Demo
+                                        </Button>
+                                    </a>
+                                    <a href='https://github.com/pratikroxx91/uifry-SaaS-landing-page' target='_blank' rel='noreferrer'>
                                         <Button variant='outline-light' size='lg'>
                                             GitHub
                                         </Button>
@@ -82,6 +86,7 @@ const Projects = () => {
                                 </div>
                             </Col>
                         </Row>
+
                     </Container>
                     <div className="text-center mt-5">
                         <p className="fs-5">
