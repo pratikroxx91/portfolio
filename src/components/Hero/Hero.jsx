@@ -12,7 +12,7 @@ const Hero = () => {
                             <img id='hero-img' src={profile_img} />
                         </div>
                         <div className="col-12 mb-3 p-3">
-                            <h1>Hi! I'm <span className='cName'>Pratik Roy</span>, a 34 year-old aspiring frontend developer based in Kolkata, India</h1>
+                            <h1>Hi! I'm <span className='cName'>Pratik Roy</span>, an aspiring frontend developer based in Kolkata, India</h1>
                         </div>
                         <div className="hero-action text-center">
                             <a href="https://drive.google.com/file/d/1jlrpLhse3Gqa6Ez9rV3xxsunaFy88lhM/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button type="button" className="btn px-3 py-2">View My Résumé</button></a>
