@@ -88,19 +88,7 @@ const Projects = () => {
                         </Row>
 
                     </Container>
-                    <div className="text-center mt-5">
-                        <p className="fs-5">
-                            You can also check out another one of my mini-project{" "}
-                            <a
-                                href="https://github.com/pratikroxx91/Salty-Travel-Website-landing-page"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="text-success fw-semibold"
-                            >
-                                here
-                            </a>.
-                        </p>
-                    </div>
+
                 </div>
             </div>
             <hr />

@@ -5,6 +5,7 @@ import css from '../../assets/css.png'
 import js from '../../assets/js.png'
 import tailwind from '../../assets/tailwind.png'
 import react from '../../assets/react.png'
+import figma from '../../assets/figma.png'
 import './About.css'
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -35,6 +36,7 @@ const About = () => {
                                     <Col><img className='logos-img' src={js} /></Col>
                                     <Col><img className='logos-img' src={tailwind} /></Col>
                                     <Col><img className='logos-img' src={react} /></Col>
+                                    <Col><img className='logos-img' src={figma} /></Col>
                                 </Row>
                             </Container>
                         </div>
