@@ -19,8 +19,11 @@
     background-clip: text;
 }
 
-h1 {
+#about h1 {
     font-size: 50px;
+    background: linear-gradient(to right, aqua, lightgreen);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .logos-img {
@@ -36,6 +39,12 @@ h1 {
 #skillBox {
     min-height: 250px;
     padding: 10px;
+}
+
+#skills h2 {
+    background: linear-gradient(to right, aqua, lightgreen);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
