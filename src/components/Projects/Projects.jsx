@@ -72,7 +72,7 @@ const Projects = () => {
                                 </div>
                             </Col>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
-                                <img src={cleaningWebsite} alt='Portfolio UX Design' className='project-img' />
+                                <img src={cleaningWebsite} alt='cleaning website' className='project-img' />
                             </Col>
                         </Row>
                     </Container>
