@@ -1,8 +1,8 @@
 import React from 'react'
 import './Projects.css'
 import { Container, Row, Col, Button } from 'react-bootstrap'
-import portfolio from '../../assets/portfolio.jpg'
-import cleaningWebsite from '../../assets/cleaningWebsite.jpg'
+import portfolioShot from '../../assets/portfolioShot.JPG'
+import cleaningWebsite from '../../assets/cleaningWebsite.JPG'
 import saas from '../../assets/saas_website.jpg'
 import weatherApp from '../../assets/weatherApp.jpg'
 import dashboardshot from '../../assets/dashboardshot.jpg'
@@ -18,7 +18,7 @@ const Projects = () => {
                     <Container>
                         <Row className='align-items-center my-5 flex-md-row-reverse'>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
-                                <img src={portfolio} alt='Portfolio UX Design' className='project-img' />
+                                <img src={portfolioShot} alt='Portfolio UX Design' className='project-img' />
                             </Col>
 
                             <Col md={6} sm={12} className='mb-3 px-5'>
