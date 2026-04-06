@@ -20,9 +20,9 @@ const About = () => {
                             <img id='about-img' src={profile_img} />
                         </div>
                         <div className="col-md-6 col-sm-12 mb-3 p-3">
-                            <p className='my-4 fs-4'>I’m a self-taught frontend developer with a background in content writing and a growing passion for crafting responsive, user-friendly web experiences.</p>
-                            <p className='my-4 fs-4'>About a year ago, I decided to shift my career from content writing toward web development, and since then, coding has become both my interest and my passion. I enjoy the creative freedom it offers — turning ideas into interactive designs — while learning something new every single day.</p>
-                            <p className='my-4 fs-4'>My goal is to continue improving my skills, explore new technologies, and keep diving deeper into the world of web development, no matter how challenging it gets.</p>
+                            <p className='my-5 fs-5'>I'm a self-taught Frontend Developer and UI/UX Designer based in Kolkata, India, focused on building clean, responsive, and user-friendly web experiences.</p>
+                            <p className='my-5 fs-5'>My journey into tech began after transitioning from a background in content writing, where I developed a strong appreciation for clarity, structure, and communication — skills that now influence how I approach both design and development.</p>
+                            <p className='my-5 fs-5'>Today, I enjoy designing intuitive interfaces and bringing them to life through code. I'm constantly exploring better ways to improve usability, visual hierarchy, and performance while continuing to grow as both a developer and a designer.</p>
                         </div>
                     </div>
 
