@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import portfolio from '../../assets/portfolio-shot.JPG'
-import cleaning from '../../assets/cleaning-website.JPG'
+import portal from '../../assets/wbsedcl.jpg'
 import saas from '../../assets/saas_website.jpg'
 import weatherApp from '../../assets/weatherApp.jpg'
 import dashboardshot from '../../assets/dashboardshot.jpg'
@@ -50,21 +50,21 @@ const Projects = () => {
 
                         <Row className='align-items-center my-5 flex-md-row-reverse'>
                             <Col md={6} sm={12} className='mb-3 px-5'>
-                                <h3>Cleaning Company Landing Page</h3>
+                                <h3>WBSEDCL Portal Redesign</h3>
 
                                 <p className='fs-6'>
-                                    A service-based website UI concept designed for a professional cleaning company. The project focuses on improving service discoverability, clear call-to-actions, and a structured layout that helps users quickly understand offerings and book services.
+                                    Designed a UI/UX redesign of a state electricity board portal, focusing on improving navigation, readability, and overall usability by simplifying layout structure and enhancing user interaction across key sections.
                                 </p>
 
                                 <div className='project-buttons'>
 
-                                    <a href='https://www.behance.net/gallery/246987073/ProCleaners-Cleaning-service-company-landing-page-UI' target='_blank' rel='noreferrer'>
+                                    <a href='https://www.behance.net/gallery/247486961/WBSEDCL-Portal-Redesign' target='_blank' rel='noreferrer'>
                                         <Button variant='outline-success' size='lg' className='me-3'>
                                             Behance
                                         </Button>
                                     </a>
 
-                                    <a href='https://www.figma.com/design/WqBfvXaCDFgMr9CDq9aNsS/Untitled?node-id=0-1&t=KtuKylZV1G66jkiD-1' target='_blank' rel='noreferrer'>
+                                    <a href='https://www.figma.com/design/UGUf9jRThvezOUmlukrfre/Untitled?node-id=0-1&p=f&t=ojZqnWamrDNkQL6c-0' target='_blank' rel='noreferrer'>
                                         <Button variant='outline-light' size='lg'>
                                             Figma Prototype
                                         </Button>
@@ -72,7 +72,7 @@ const Projects = () => {
                                 </div>
                             </Col>
                             <Col md={6} sm={12} className='mb-3 p-3 text-center'>
-                                <img src={cleaning} alt='cleaning website' className='project-img' />
+                                <img src={portal} alt='cleaning website' className='project-img' />
                             </Col>
                         </Row>
                     </Container>
