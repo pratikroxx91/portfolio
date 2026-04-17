@@ -15,8 +15,8 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/pratik-roy-73243774/" target="_blank" rel="noopener noreferrer" className="mx-2 text-white">
                             LinkedIn
                         </a>
-                        <a href="mailto:roypratik1991@gmail.com" className="mx-2 text-white">
-                            Email
+                        <a href="https://www.behance.net/pratikroy12" target="_blank" rel="noopener noreferrer" className="mx-2 text-white">
+                            Behance
                         </a>
                     </div>
                 </div>
